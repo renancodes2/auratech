@@ -1,0 +1,44 @@
+# --- DEPENDÊNCIAS E SAÍDA DE COMPILAÇÃO ---
+node_modules
+/dist
+/build
+/out
+
+**/.env
+**/.env.*
+**/.env.test
+**/.env.test.local
+
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+pids
+*.pid
+*.seed
+*.pid.lock
+.temp
+.tmp
+.cache
+
+/.idea
+.DS_Store 
+Thumbs.db
+.project
+.classpath
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# --- PRISMA (BACKEND) ---
+/backend/node_modules/.prisma/client
+/generated/prisma
+/backend/generated/prisma
+
+# --- TESTES E COBERTURA ---
+/coverage
+/.nyc_output
